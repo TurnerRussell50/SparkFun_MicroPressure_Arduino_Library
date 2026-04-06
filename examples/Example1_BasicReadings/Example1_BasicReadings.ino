@@ -56,7 +56,7 @@ void loop() {
    */
   Serial.print(mpr.readPressure(),4);
   Serial.println(" PSI");
-  Serial.print(mpr.readPressure(PA),1);
+  Serial.print(mpr.readPressure(MPR_PA),1);
   Serial.println(" Pa");
   Serial.print(mpr.readPressure(KPA),4);
   Serial.println(" kPa");
