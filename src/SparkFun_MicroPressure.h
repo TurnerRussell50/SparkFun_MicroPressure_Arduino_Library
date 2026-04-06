@@ -19,7 +19,7 @@
 
 enum Pressure_Units {
   PSI,
-  PA,
+  MPR_PA,
   KPA,
   TORR,
   INHG,
