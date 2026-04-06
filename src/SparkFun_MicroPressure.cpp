@@ -126,7 +126,7 @@ float SparkFun_MicroPressure::readPressure(Pressure_Units units)
   pressure = (pressure / (OUTPUT_MAX - OUTPUT_MIN)) + _minPsi;
 
   if(units == PSI)       return pressure; //PSI
-  else if(units == PA)   return pressure*6894.7573; //Pa (Pascal)
+  else if(units == MPR_PA)   return pressure*6894.7573; //Pa (Pascal)
   else if(units == KPA)  return pressure*6.89476;   //kPa (kilopascal)
   else if(units == TORR) return pressure*51.7149;   //torr (mmHg)
   else if(units == INHG) return pressure*2.03602;   //inHg (inch of mercury)
